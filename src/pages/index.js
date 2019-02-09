@@ -10,6 +10,7 @@ import SectionAbout from '../components/SectionAbout'
 import SectionSkills from '../components/SectionSkills'
 import SectionProjects from '../components/SectionProjects'
 import Navigation from '../components/Navigation'
+import SEO from "../components/seo"
 
 class IndexPage extends Component {
 	render() {
@@ -19,6 +20,7 @@ class IndexPage extends Component {
 
 		return (
 			<Layout>
+				<SEO keywords={[`Steve Wisner`, `portfolio`, `gatsby`, `react`]} title='Steve Wisner' />
 				<Navigation />
 				<SectionHead data={data} />
 				<SectionAbout data={data} />

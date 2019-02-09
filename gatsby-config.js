@@ -2,7 +2,9 @@ require('dotenv').config()
 
 module.exports = {
 	siteMetadata: {
-		title: 'Steve Wisner',
+		title: 'Steve Wisner Portfolio',
+		description: `Portfolio website for Steve Wisner, creator of Property Data Generator.`,
+		author: `Steve Wisner`,
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
@@ -43,6 +45,12 @@ module.exports = {
 				flags: [
 					'gated',
 				],
+			},
+		},
+		{
+			resolve: `gatsby-plugin-google-analytics`,
+			options: {
+				trackingId: "UA-114760466-1",
 			},
 		},
 	],
