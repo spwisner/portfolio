@@ -20,7 +20,7 @@ class IndexPage extends Component {
 
 		return (
 			<Layout>
-				<SEO keywords={[`Steve Wisner`, `portfolio`, `gatsby`, `react`]} title='Steve Wisner' />
+				<SEO keywords={[`Steve Wisner`, `portfolio`, `gatsby`, `Property Data Generator`, `react`]} title='Home' />
 				<Navigation />
 				<SectionHead data={data} />
 				<SectionAbout data={data} />

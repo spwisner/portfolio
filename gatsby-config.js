@@ -2,7 +2,7 @@ require('dotenv').config()
 
 module.exports = {
 	siteMetadata: {
-		title: 'Steve Wisner Portfolio',
+		title: 'Steve Wisner',
 		description: `Portfolio website for Steve Wisner, creator of Property Data Generator.`,
 		author: `Steve Wisner`,
 	},
