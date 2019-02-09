@@ -41,91 +41,91 @@ export const pageQuery = graphql`
 		appScreenshot: file(relativePath: { eq: "app-screenshot.png" }) {
 			childImageSharp {
 				fluid(maxWidth: 200) {
-					...GatsbyImageSharpFluid_noBase64
+					...GatsbyImageSharpFluid
 				}
 			}
 		}
 		express: file(relativePath: { eq: "express.png" }) {
 			childImageSharp {
 				fluid(maxWidth: 200) {
-					...GatsbyImageSharpFluid_noBase64
+					...GatsbyImageSharpFluid
 				}
 			}
 		}
 		flux: file(relativePath: { eq: "flux.png" }) {
 			childImageSharp {
 				fluid(maxWidth: 200) {
-					...GatsbyImageSharpFluid_noBase64
+					...GatsbyImageSharpFluid
 				}
 			}
 		}
 		gatsby: file(relativePath: { eq: "gatsby.png" }) {
 			childImageSharp {
 				fluid(maxWidth: 200) {
-					...GatsbyImageSharpFluid_noBase64
+					...GatsbyImageSharpFluid
 				}
 			}
 		}
 		headshot: file(relativePath: { eq: "headshot.png" }) {
 			childImageSharp {
 				fluid(maxWidth: 1000) {
-					...GatsbyImageSharpFluid_noBase64
+					...GatsbyImageSharpFluid
 				}
 			}
 		}
 		jest: file(relativePath: { eq: "jest.png" }) {
 			childImageSharp {
 				fluid(maxWidth: 200) {
-					...GatsbyImageSharpFluid_noBase64
+					...GatsbyImageSharpFluid
 				}
 			}
 		}
 		js: file(relativePath: { eq: "js.png" }) {
 			childImageSharp {
 				fluid(maxWidth: 200) {
-					...GatsbyImageSharpFluid_noBase64
+					...GatsbyImageSharpFluid
 				}
 			}
 		}
 		mongoDb: file(relativePath: { eq: "mongoDb.png" }) {
 			childImageSharp {
 				fluid(maxWidth: 200) {
-					...GatsbyImageSharpFluid_noBase64
+					...GatsbyImageSharpFluid
 				}
 			}
 		}
 		mongoose: file(relativePath: { eq: "mongoose.png" }) {
 			childImageSharp {
 				fluid(maxWidth: 200) {
-					...GatsbyImageSharpFluid_noBase64
+					...GatsbyImageSharpFluid
 				}
 			}
 		}
 		node: file(relativePath: { eq: "node.png" }) {
 			childImageSharp {
 				fluid(maxWidth: 200) {
-					...GatsbyImageSharpFluid_noBase64
+					...GatsbyImageSharpFluid
 				}
 			}
 		}
 		reactRouter: file(relativePath: { eq: "react-router.png" }) {
 			childImageSharp {
 				fluid(maxWidth: 100) {
-					...GatsbyImageSharpFluid_noBase64
+					...GatsbyImageSharpFluid
 				}
 			}
 		}
 		react: file(relativePath: { eq: "react.png" }) {
 			childImageSharp {
 				fluid(maxWidth: 100) {
-					...GatsbyImageSharpFluid_noBase64
+					...GatsbyImageSharpFluid
 				}
 			}
 		}
 		redux: file(relativePath: { eq: "redux.png" }) {
 			childImageSharp {
 				fluid(maxWidth: 100) {
-					...GatsbyImageSharpFluid_noBase64
+					...GatsbyImageSharpFluid
 				}
 			}
 		}
